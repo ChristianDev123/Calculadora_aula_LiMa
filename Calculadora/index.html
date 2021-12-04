@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Estilo.css">
+    <title>Calculadora Operações Básicas</title>
+</head>
+<body>
+    <h1>Calculadora de Operações Básicas</h1>
+    <section>
+        <div id="resultado">
+
+        </div>
+        <div id="teclas">
+            <div id="excluiValores">
+                <input type="button" value="⌫" onclick="apagar()">
+                <input type="button" value="Clear" onclick="limpaTudo()">
+            </div>
+            <div id="numeros">
+                <div id="linha1">
+                    <input type="button" value="1" onclick="criaString(1)">
+                    <input type="button" value="2" onclick="criaString(2)">
+                    <input type="button" value="3" onclick="criaString(3)">    
+                </div>
+                <div id="linha2">
+                    <input type="button" value="4" onclick="criaString(4)">
+                    <input type="button" value="5" onclick="criaString(5)">
+                    <input type="button" value="6" onclick="criaString(6)">
+                </div>
+                <div id="linha3">
+                    <input type="button" value="7" onclick="criaString(7)">
+                    <input type="button" value="8" onclick="criaString(8)">
+                    <input type="button" value="9" onclick="criaString(9)">
+                </div>
+                <div id="linha4">
+                    <input type="button" value="." onclick="criaString('.')">
+                    <input type="button" value="0" onclick="criaString(0)">
+                    <input type="button" value="=" onclick="executar()">
+                </div>
+            </div>
+            <div id="operacoes">
+                <input type="button" value="+" onclick="criaString('+')">
+                <input type="button" value="-" onclick="criaString('-')">
+                <input type="button" value="*" onclick="criaString('*')">
+                <input type="button" value="/" onclick="criaString('/')">    
+            </div>
+        </div>
+    </section>
+    <script src="JS/novoScript.js"></script>
+</body>
+</html>
