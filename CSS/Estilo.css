@@ -1,0 +1,61 @@
+body{
+    background-image: linear-gradient(to right,#008ae6,white);
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+}
+h1{
+    color:white;
+    text-shadow: 2px 2px 3px black;
+    margin-top:100px;
+    font-size:50px;
+}
+section{
+    background-color:white;
+    width:500px;
+    border:1px solid black;
+    border-radius:15px;
+    padding:30px;
+    margin:auto;
+    margin-top:150px;
+}
+div#resultado{
+    height:30px;
+    border:2px solid black;
+    border-radius:5px;
+    margin:auto;
+}
+div#teclas{
+    width:400px;
+    margin:auto;
+    margin-top:20px;
+    display:flex;
+}
+div#linha1{
+    display: flex;
+}
+div#linha2{
+    display:flex;
+}
+div#linha3{
+    display:flex;
+}
+div#linha4{
+    margin-left:75px;
+}
+div#operacoes{
+    margin-left:30px;
+}
+input[type="button"]{
+    width:80px;
+    height:35px;
+    font-size:25px;
+    border-radius:5px;
+    
+}
+input[type="button"]:hover{
+    background-color:rgb(38, 153, 219);
+    box-shadow: 2px 2px 4px black;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+    transition:1s;
+}
