@@ -1,0 +1,39 @@
+body{
+    background-image:linear-gradient(to right, black,white);
+    font-family: 'Times New Roman', Times, serif;
+}
+section#all{
+    background-color: azure;
+    min-height: 150px;
+    max-width: 300px;
+    border:1px solid black;
+    padding:20px;
+    border-radius:15px;
+    box-shadow: 2px 2px 4px black;
+    margin:auto;
+    margin-top:250px;
+}
+h1{
+    text-align:center;
+}
+input[type="button"]{
+    height:30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    border-radius:20px;
+    border:1px solid black;
+    margin-top:20px;
+    box-shadow: 2px 2px 4px black;
+}
+input[type="button"]:hover{
+    background-image: linear-gradient(to top, #e6b800,rgb(58, 58, 58));
+    color:white;
+    height:35px;
+    font-size: 20px;
+    box-shadow: none;
+    transition:1s;
+}
+div#btnVolta{
+    width:200px;
+    margin:auto;
+}
